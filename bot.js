@@ -249,8 +249,8 @@ client.on('message', message => {
        
      PREFIX = ${prefix}
      PING = ${Date.now() - message.createdTimestamp}ms
-     FOR HELP = <@337457211875917834>
-    By : ! OsTaaZz SyTrAAءء $ `)
+     FOR HELP = <@331081268731052042>
+    By : - َBﾑKT×SH . `)
  
       message.channel.send({embed});
      }
