@@ -9,7 +9,7 @@ const fetchVideoInfo = require('youtube-info');
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
 const prefix = '$';
 client.on('ready', function() {
-    client.user.setGame(`اكتب اي شي هنا`,"http://twitch.tv/sytra_ayman")
+    client.user.setGame(`Shop Prestige ..`,"http://twitch.tv/baktash")
     console.log(`i am ready ${client.user.username}`);
 });
 /*
@@ -263,7 +263,7 @@ var prefix = "$";
   if (!message.content.startsWith(prefix)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id == '395462979115679755' ) return;
+  if (message.author.id == '331081268731052042' ) return;
  
 if (message.content.startsWith(prefix + 'stream')) {
   client.user.setGame(argresult, "https://www.twitch.tv/Baktash");
